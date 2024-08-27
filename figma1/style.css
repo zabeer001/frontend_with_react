@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#header {
+    text-decoration: none;
+}
+
+#logo_div {
+    display: flex;
+
+    align-items: center;
+  
+
+}
+
+#logo {
+    height: 62.5%;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.tiny_logo{
+    height: 30.5%;
+    margin-right: 9px;
+
+}
+
+#main_menu li {
+    display: inline;
+
+}
+
+#main_menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main_menu ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+#nav_btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#main_menu li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 25px;
+}
+
+
+/* NAVBAR BUTTON */
+.nav_btn {
+    width: 117.75px;
+    height: 40.63px;
+    border-radius: 3.76px;
+    border-width: 1.5px;
+    border-style: solid;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.btn_text {
+    font-family: Inter, sans-serif;
+    font-size: 10.53px;
+    font-weight: 800;
+    line-height: 12.79px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 100%; /* Ensure text takes up the full width of the button */
+    height: 100%; /* Ensure text is vertically centered */
+    vertical-align: middle; /* Align text vertically */
+    padding-top: 13px; /* Center text vertically inside the button */
+}
